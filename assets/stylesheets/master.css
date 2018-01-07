@@ -1,0 +1,103 @@
+/* Set margin to default at 0 */ 
+* {
+  margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: red;
+}
+
+nav li, form {
+  display: inline;
+}
+
+
+.left {
+  float: left;
+  width: 70%;
+}
+
+
+.right {
+  float: right;
+  width: 30%;
+}
+
+.video-main {
+  background-color: blue;
+  width: 100%;
+}
+
+.video-info {
+  padding: 30px; 70px;
+  background-color: purple;
+}
+
+/* styles the comment section */
+.comments {
+  padding: 30px; 70px;
+  background-color: green;
+}
+
+.comments > span, .author {
+  font-weight: bold;
+}
+
+.comments > span, .posted-at {
+  color: gray;
+}
+
+.comments > ul > li > a {
+  text-decoration: none;
+  color: gray;
+  font-size: 70%;
+}
+
+.comments > ul > li {
+  padding: 15px; 0;
+}
+
+
+/* styles the 'up next' section */
+.up-next {
+  background-color: orange;
+  padding: 15px;
+}
+
+.up-next > ul {
+  padding-left: 0px;
+}
+
+
+.up-next > .next-videos > a {
+  text-decoration: none;
+  color: black;
+}
+
+.up-next > .next-videos > a > li {
+  padding: 14px; 0;
+  padding 
+}
+
+.up-next > .next-videos > a > li > .author, .views {
+  display: block;
+  color: gray;
+  font-size: 80%;
+}
+
+/* style up next thumbnail */
+.up-next > .next-videos > a > li > img {
+  width: 100px;
+  height: 60px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+
